@@ -9,8 +9,11 @@
 }
 
 .overlayCont{
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding-left: 10px; 
+    /* justify-content: flex-end; */
 }
 
 .overlayBody {
@@ -19,11 +22,14 @@
     flex-direction: row;
     margin-top: 2rem;
     margin-right: 2rem;
-    background: rgba(0, 0, 0, 0.486);
+    background: rgba(245, 245, 245, 0.382);
     box-shadow: -2px 0px 46px -9px rgba(0, 0, 0, 0.644) inset, 0px 4px 8px rgba(0, 0, 0, 0.418);
     padding: 1rem;
-    border-radius: 10px;
-    color: white;
+    border-radius: 2px;
+    border-style: double;
+    border-width: 2px;
+    border-color: #36efa2ab;
+    color: rgb(0, 0, 0);
 }
 
 .RecordInfo{
@@ -36,17 +42,18 @@
     margin-right: 2rem;
     font-family: "Play", sans-serif;
     background: rgba(0, 0, 0, 0.486);
-    box-shadow: -2px 0px 46px -9px rgba(161, 2, 2, 0.644) inset, 0px 4px 8px rgba(0, 0, 0, 0.418);
+    box-shadow: -2px 0px 46px -9px #36efa2c6 inset, 0px 4px 8px rgba(0, 0, 0, 0.418);
     color: white;
     padding: 1rem;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .bodyInfobox {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-left: 10px;
 }
 .overlayBody img{
     width: 66px;
@@ -57,7 +64,7 @@
 }
 .bodyIcon{
     margin-right: 15px;
-    color: rgb(173, 8, 8);
+    color: #36efa2ab;
 }
 .bodyDate{
     font-size: 17px;
@@ -68,9 +75,9 @@
     display: flex;
     gap: 5px;
     position: absolute;
-    bottom: 9px;
-    left: 20px;
-    font-size: 15px;
+    bottom: 18px;
+    left: 95px;
+    font-size: 11px;
 }
 .currWatchCont{
     position: absolute;
@@ -189,7 +196,7 @@
 }
 .recTitle{
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 5px;
     padding-bottom: 0.5rem;
     background: #353b48;
     box-shadow: -2px 0px 46px -9px rgba(0, 0, 0, 0.644) inset, 0px 4px 8px rgba(0, 0, 0, 0.418);
@@ -250,7 +257,7 @@
     text-shadow: 4px 1px 5px rgba(0, 0, 0, 0.315);
 }
 .camDelete:hover{
-    color: #ca3333;
+    color: #36efa2ab;
     text-shadow: 4px 1px 5px rgba(0, 0, 0, 0.315);
 }
 .camBox:hover{
@@ -383,7 +390,7 @@
 }
 
 .vidPlayerIcon:hover {
-    color: #ca3333; 
+    color: #36efa2ab; 
 }
 
 .askMain{
@@ -415,7 +422,7 @@
 
 .askIcon{
     font-size: 1.4rem;
-    color: #ca3333;
+    color: #36efa2ab;
     margin-bottom: 0.2rem; 
 }
 
